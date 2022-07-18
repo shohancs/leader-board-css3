@@ -20,6 +20,7 @@ main{
 
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 
 /* Top players style start */
@@ -57,9 +58,14 @@ hr{
 
 /* Top Blog style start */
 .blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
     display: flex;
 }
-.blogs .thumbnail img{
+.blog .thumbnail img{
     width: 177px;
     height: 117px;
 }
